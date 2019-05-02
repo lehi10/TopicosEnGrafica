@@ -2,6 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "opencv2/core/core.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+
+using namespace cv;
 
 namespace Ui {
 class MainWindow;
@@ -23,8 +28,10 @@ public:
 
     //Image Parameters
 
-    int alpha_param=0;
-    int beta_param=0;
+    int alpha_param;
+    int beta_param;
+
+    bool edited;
 
 
 private slots:
@@ -36,6 +43,13 @@ private slots:
 
 
     void on_beta_valueChanged(int arg1);
+
+    void on_actionHistograma_triggered();
+    Mat calcularHistograma(Mat imRec);
+
+    void on_actionGray_Scale_triggered();
+
+    void on_edit_factors_button_clicked();
 
 private:
     Ui::MainWindow *ui;
