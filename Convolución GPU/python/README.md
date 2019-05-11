@@ -13,29 +13,29 @@ Las siguientes lineas contienen las librerías y dependencias que necesitan inst
 
 Desinstalando librerias anteriores de Cuda
 
-'''
+```
 !apt-get --purge remove cuda nvidia* libnvidia-*
 !dpkg -l | grep cuda- | awk '{print $2}' | xargs -n1 dpkg --purge
 !apt-get remove cuda-*
 !apt autoremove
 !apt-get update
 
-'''
+```
 
 Instalando reposutorio de librerias de Cuda para C++
 
-'''
+```
 !wget https://developer.nvidia.com/compute/cuda/9.2/Prod/local_installers/cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64 -O cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
 !dpkg -i cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
 !apt-key add /var/cuda-repo-9-2-local/7fa2af80.pub
 !apt-get update
 !apt-get install cuda-9.2
 
-'''
+```
 
 Revisando la version de Cuda que tenemos
 
-'''
+```
 !nvcc --version 
 
 
@@ -45,13 +45,13 @@ nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2018 NVIDIA Corporation
 Built on Sat_Aug_25_21:08:01_CDT_2018
 Cuda compilation tools, release 10.0, V10.0.130
-'''
+```
 
 Instanlando librerias para poder aplicar todos los cambios y usar nvcc
 
-'''
+```plain
 !pip install git+git://github.com/andreinechaev/nvcc4jupyter.git
-'''
+```
 
 
 ##Capturas de pantalla
