@@ -4,6 +4,8 @@ Lehi Quincho M.
 CUI: 20122586
 
 
+Para compilar se requiere instalar QtCreator , y las librerías de OpenCv
+
 ##Capturas de pantalla
 
 
