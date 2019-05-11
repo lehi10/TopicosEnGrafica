@@ -3,6 +3,8 @@
 Lehi Quincho M.
 CUI: 20122586
 
+
+
 ## Como compilarlo
 
 El código de la convolución fue compilado usando Colab de Google, que tiene GPUs disponibles para usar con Python.
@@ -55,6 +57,11 @@ Instanlando librerias para poder aplicar todos los cambios y usar nvcc
 
 
 ##Capturas de pantalla
+
+Para el proyecto usé cuadernos de Colab debido a que mi computadora no tiene GPU, el código se encuentra en el siguiente url :
+
+[Cuaderno en Colab https://colab.research.google.com/drive/1ZKQ2Yzf7O3HAq_1d8fby4LXPTvYO3pLQ](https://colab.research.google.com/drive/1ZKQ2Yzf7O3HAq_1d8fby4LXPTvYO3pLQ)
+
 
 ### 
 ![Image ortho view ](https://github.com/lehi10/TopicosEnGrafica/blob/master/Convoluci%C3%B3n%20GPU/python/capturas/colab.png)
