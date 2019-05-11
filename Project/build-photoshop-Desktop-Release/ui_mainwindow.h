@@ -59,7 +59,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(864, 454);
-        //MainWindow->setToolTipDuration(-1);
+
         MainWindow->setTabShape(QTabWidget::Rounded);
         actionOpen_Image = new QAction(MainWindow);
         actionOpen_Image->setObjectName(QString::fromUtf8("actionOpen_Image"));
@@ -79,28 +79,28 @@ public:
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         display_image = new QLabel(centralWidget);
         display_image->setObjectName(QString::fromUtf8("display_image"));
-        display_image->setGeometry(QRect(320, 20, 521, 311));
+        display_image->setGeometry(QRect(210, 40, 741, 511));
         alpha = new QDoubleSpinBox(centralWidget);
         alpha->setObjectName(QString::fromUtf8("alpha"));
-        alpha->setGeometry(QRect(60, 20, 69, 27));
+        alpha->setGeometry(QRect(70, 180, 69, 27));
         beta = new QSpinBox(centralWidget);
         beta->setObjectName(QString::fromUtf8("beta"));
-        beta->setGeometry(QRect(10, 20, 48, 27));
+        beta->setGeometry(QRect(20, 180, 48, 27));
         histograma_label = new QLabel(centralWidget);
         histograma_label->setObjectName(QString::fromUtf8("histograma_label"));
-        histograma_label->setGeometry(QRect(20, 110, 321, 261));
+        histograma_label->setGeometry(QRect(310, 30, 701, 511));
         label = new QLabel(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(60, 70, 21, 17));
+        label->setGeometry(QRect(70, 230, 21, 17));
         a_factor_input = new QLineEdit(centralWidget);
         a_factor_input->setObjectName(QString::fromUtf8("a_factor_input"));
-        a_factor_input->setGeometry(QRect(20, 70, 31, 27));
+        a_factor_input->setGeometry(QRect(30, 230, 31, 27));
         b_factor_input = new QLineEdit(centralWidget);
         b_factor_input->setObjectName(QString::fromUtf8("b_factor_input"));
-        b_factor_input->setGeometry(QRect(90, 70, 31, 27));
+        b_factor_input->setGeometry(QRect(100, 230, 31, 27));
         edit_factors_button = new QPushButton(centralWidget);
         edit_factors_button->setObjectName(QString::fromUtf8("edit_factors_button"));
-        edit_factors_button->setGeometry(QRect(130, 70, 51, 27));
+        edit_factors_button->setGeometry(QRect(140, 230, 51, 27));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));

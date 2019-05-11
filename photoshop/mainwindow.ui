@@ -23,10 +23,10 @@
    <widget class="QLabel" name="display_image">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>20</y>
-      <width>521</width>
-      <height>311</height>
+      <x>210</x>
+      <y>40</y>
+      <width>741</width>
+      <height>511</height>
      </rect>
     </property>
     <property name="text">
@@ -36,8 +36,8 @@
    <widget class="QDoubleSpinBox" name="alpha">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>20</y>
+      <x>70</x>
+      <y>180</y>
       <width>69</width>
       <height>27</height>
      </rect>
@@ -46,8 +46,8 @@
    <widget class="QSpinBox" name="beta">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>20</y>
+      <x>20</x>
+      <y>180</y>
       <width>48</width>
       <height>27</height>
      </rect>
@@ -56,10 +56,10 @@
    <widget class="QLabel" name="histograma_label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>110</y>
-      <width>321</width>
-      <height>261</height>
+      <x>310</x>
+      <y>30</y>
+      <width>701</width>
+      <height>511</height>
      </rect>
     </property>
     <property name="text">
@@ -69,8 +69,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>70</y>
+      <x>70</x>
+      <y>230</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -82,8 +82,8 @@
    <widget class="QLineEdit" name="a_factor_input">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>70</y>
+      <x>30</x>
+      <y>230</y>
       <width>31</width>
       <height>27</height>
      </rect>
@@ -92,8 +92,8 @@
    <widget class="QLineEdit" name="b_factor_input">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>70</y>
+      <x>100</x>
+      <y>230</y>
       <width>31</width>
       <height>27</height>
      </rect>
@@ -102,8 +102,8 @@
    <widget class="QPushButton" name="edit_factors_button">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>70</y>
+      <x>140</x>
+      <y>230</y>
       <width>51</width>
       <height>27</height>
      </rect>
