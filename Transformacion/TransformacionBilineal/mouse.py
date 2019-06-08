@@ -27,14 +27,14 @@ def on_mouse(event, x, y, flags, param):
 if __name__ == "__main__":
 
     title = 'Drawing'
-    image = np.zeros((600, 800, 3), np.uint8)
+    
     
     cv2.namedWindow(title)
-
-    cv2.setMouseCallback(title, on_mouse, image)
+    img = cv2.imread("road.jpg")
+    cv2.setMouseCallback(title, on_mouse, img)
 
     while(1):
-        cv2.imshow(title, image)
+        cv2.imshow(title, img)
         if cv2.waitKey(20) & 0xFF == 27:
             break
         

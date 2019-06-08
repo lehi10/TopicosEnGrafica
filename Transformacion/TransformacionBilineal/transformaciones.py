@@ -123,5 +123,6 @@ while(1):
         break
     
 cv2.destroyAllWindows()
+if cv2.waitKey(20):
     
 
