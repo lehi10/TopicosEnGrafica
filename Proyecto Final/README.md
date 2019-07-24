@@ -1,6 +1,10 @@
 # Eliminación de Ruido en imagenes de rostros 
 
+El código se encuentra en el arhcivo .ipynb
 
+[Colab Project](https://github.com/lehi10/TopicosEnGrafica/blob/master/Proyecto%20Final/Proyecto.ipynb) 
+
+Para ejecutarlo solo se necesitan correr todas las celdas del cuaderno de Colab.
 
 ## Arquitectura de la Red Neuronal
 
