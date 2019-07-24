@@ -62,3 +62,5 @@ class Discriminator(nn.Module):
 ```
 
 #Resultados
+
+![ ](https://github.com/lehi10/TopicosEnGrafica/blob/master/Proyecto%20Final/img2.png  "Results")
